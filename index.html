@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <h1 class="text-center bg-primary text-white p-5 display-3 text-uppercase fw-bold">Quiz</h1>
+
+
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container">
+            <p>Voce acertou <span class="text-primary display-3">0%</span>do quiz!</p>
+        </div>
+    </div>
+
+
+    <h3 class="text-center bg-light my-5">Voce acerta essas perguntas sobre planetas?</h3>
+    <form class="myForm bg-dark text-white ">
+        <div class="pergunta1 text-center p-2">
+            <h2 class="firstQuestion"> 1 - Qual o planeta mais proximo a Terra?</h2>
+            <div class="inQuests  flex-column my-4">
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest1" value="A" checked>
+                    Lua
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest1" value="B" checked>
+                    Júpiter
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest1" value="C" checked>
+                    Marte
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest1" value="D" checked>
+                    Plutão
+                </label>
+            </div>
+        </div>
+
+        <div class="pergunta2 text-center">
+            <h2 class="twoQuestion">2 - Quantos planetas existem no sistma solar?</h2>
+
+            <div class="inQuests  flex-column my-4">
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest2" value="A" checked>
+                   5
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest2" value="B" checked>
+                 8
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest2" value="C" checked>
+                    7
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest2" value="D" checked>
+                   9
+                </label>
+            </div>
+        </div>
+
+        <div class="pergunta3 text-center">
+            <h2 class="treeQuestion">3 - Qual o maior planeta do sistema solar?</h2>
+            <div class="inQuests  flex-column my-4">
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest3" value="A" checked>
+                    Lua
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest3" value="B" checked>
+                    Júpiter
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest3" value="C" checked>
+                    Marte
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest3" value="D" checked>
+                    Plutão
+                </label>
+            </div>
+        </div>
+
+
+        <div class="pergunta 4 text-center">
+            <h2 class="fourQuestion">4 - Qual o planeta que foi excluido do sistema solar?</h2>
+            <div class="inQuests  flex-column my-4">
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest4" value="A" checked>
+                    Lua
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest4" value="B" checked>
+                    Júpiter
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest4" value="C" checked>
+                    Marte
+                </label>
+                <label class="form-check d-block p-2">
+                    <input type="radio" name="quest4" value="D" checked>
+                    Plutão
+                </label>
+            </div>
+
+        </div>
+
+        <div class="pergunta5 text-center p-3">
+            <h2 class="fiveQuestion">5 - Qual planeta mais proximo do Sol?</h2>
+            <div class="inQuests form-check my-2 text-white-50">
+                <label class="form-check-label text-white d-block p-2">
+                    <input type="radio" name="quest5" value="A" checked>
+                    Lua
+                </label
+            <div class="form-check">
+                <label class="form-check-label text-white d-block p-2">
+                    <input type="radio" name="quest5" value="B" checked>
+                    Júpiter
+                </label>
+            </div>
+                <div class="form-check">
+                <label class="form-check-label d-block p-2">
+                    <input type="radio" name="quest5" value="C" checked>
+                    Marte
+                </label>
+            </div>
+                <div class="form-check"> 
+                    <label class="form-check-label  p-2">
+                        <input type="radio" name="quest5" value="D" checked>
+                        Mercúrio
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center p-5">
+            <button class="btn bg-danger  text-light">Enviar</button>
+        </div>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
